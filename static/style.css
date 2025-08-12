@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5dc; /* Wheat white */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 60%;
+    background-color: #2A2A3B; /* Dark Gray with a hint of Blue */
+    color: #F8F8F8; /* Off-White */
+    border: 2px solid #5A189A; /* Royal Purple */
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.container:hover {
+    border-color: #1d0035; /* Neon Purple */
+    box-shadow: 0 0 210px rgba(157, 78, 221, 0.8);
+}
+
+
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #007bff;
+}
+
+textarea {
+    width: 95%;
+    height: 150px;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    background: #f9f9f9;
+    color: #333;
+    outline: none;
+    transition: 0.3s;
+    display: block;
+    margin: 0 auto; /* Centered */
+}
+
+textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+    outline: none;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+#output {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#encrypted-output, #decrypted-output {
+    margin-top: 10px;
+    padding: 15px;
+    color: black;
+    background: #f0f0f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    max-width: 100%;
+}
+
+a {
+    color: #007bff !important;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #0056b3;
+}
